@@ -2,24 +2,24 @@
 
 .. _rcs_subversion:
 
-Clase 01 - PGE 2016
+Clase 01 - PGE 2017
 ===================
 
 :Autor: César Osimani
 :Correo: cosimani@ubp.edu.ar
-:Fecha: 10 de agosto de 2016
+:Fecha: 15 de agosto de 2017
 :Regularidad: 
 	- 2 parciales 
 	
-	- Mini Exámenes de 30 minutos cada semana (se promedia para 3er nota)
+	- Mini Exámenes de preguntas múltiples (se promedia para 3er nota)
 :Opción B: 
 	- Desarrollo en Qt para Android 
 	
 	- Proponer un desarrollo que les interese
 	
-	- Deadline para entregar el resumen (idea) del proyecto: Una semana antes del 1er parcial
-	
 	- El proyecto reemplaza los dos parciales (no los Mini Exámenes). 
+
+	- Cumplir aproximadamente 8 horas semanales en investigación (no rinde parciales)
 	
 	- Se entragarán avances en cada uno de los parciales.
 	
@@ -37,7 +37,6 @@ Clase 01 - PGE 2016
 	- Procesamiento de imágenes
 	- Creación de librerías
 	
-
 
 Introducción
 ============

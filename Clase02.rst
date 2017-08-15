@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 02 - PGE 2016
+Clase 02 - PGE 2017
 ===================
  
 Herencia
