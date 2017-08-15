@@ -24,6 +24,16 @@ Clase 01 - PGE 2017
 	- Se entragarán avances en cada uno de los parciales.
 	
 	- Es individual o grupo de dos.
+:Otras opciones para obtener puntaje extra: 
+	- Clonar este repositorio, mejorarlo, ampliarlo, colocar los ejercicio resueltos, etc. 
+	
+	- Crear un instructivo de Git, con ejemplos claros, para usar desde QtCreator.
+:Opciones para proyectos: 
+	- Interfaz gráfica creada a partir de un XML (o JSON). 
+	
+	- App que haga Croma `https://es.wikipedia.org/wiki/Croma <https://es.wikipedia.org/wiki/Croma>`_
+
+	- Continuar con los proyectos del cuatrimestre pasado ( ViajeDirecto y Central Parking ).
 :Temas principales:
 	- Programación genérica y orientada a eventos
 	- Sobrecarga de operadores
