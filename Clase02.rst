@@ -142,5 +142,9 @@ Sobrecarga de operadores
 
 
 
+*Ejercicio*
+
+- Sobrecargar el operador ++ para que duplique la cantidad máxima de elementos y también duplique los valores que ya existían.
+
 
 
