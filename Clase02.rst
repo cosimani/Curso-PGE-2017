@@ -73,6 +73,11 @@ Herencia
 	    return 0;
 	}
 
+*Ejercicio*
+
+- Agregar la características a Mundo para que pueda heredar de cualquier clase, no sólo de Real y Virtual
+- Que compile y deje ejecutar la aplicación pero el toString publicar que el Mundo creado no es posible.
+
 
 Sobrecarga de operadores 
 ========================
