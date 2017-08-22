@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 03 - PGE 2016
+Clase 03 - PGE 2017
 ===================
 
 static

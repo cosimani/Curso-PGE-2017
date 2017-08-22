@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 04 - PGE 2016
+Clase 04 - PGE 2017
 ===================
 
 **Copiar objetos**
@@ -26,16 +26,19 @@ Clase 04 - PGE 2016
 	linea = linea1 + linea2;  
 	// Los tres son objetos LineaDeTexto y la suma devuelve un LineaDeTexto que tiene los textos concatenados
 	
-MiniExámenes
-============
+MiniExamen de preguntas múltiples
+=================================
 
-- Se promediarán para la tercer nota de POO
-- Previstos: Agosto 24 - Septiembre 28 - ...
-- Tiempo: 30 minutos
-- Temas para el 24 de agosto: 
-	- template
-	- Sobrecarga de operadores
-	- Clase Listado
+:Tarea para Clase 5:
+	Completar y estudiar exhaustivamente la clase Listado
+
+	Estudiar sobrecarga de operadores y templates
+
+	Ver `Tutorial Qt QVector <https://www.youtube.com/watch?v=Z9u2yDPh57U>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
+
+	Ver `Tutorial Qt QList <https://www.youtube.com/watch?v=xx5wIjUwlg8>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
+
+	Ver `Tutorial C++ vector <https://www.youtube.com/watch?v=dNb468_AJQI>`_ de `Videos tutoriales de C++ <https://www.youtube.com/playlist?list=PL54fdmMKYUJvS32aLptKVC0AH9bwsavzi>`_
 
 
 
