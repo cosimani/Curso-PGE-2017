@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 05 - PGE 2016
+Clase 05 - PGE 2017
 ===================
 
 **Resololución del Ejercicio LineaDeTexto:**

@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 06 - PGE 2016
+Clase 06 - PGE 2017
 ===================
 
 Captura de eventos con eventFilter

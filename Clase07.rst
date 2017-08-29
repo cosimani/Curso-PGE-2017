@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 07 - PGE 2016
+Clase 07 - PGE 2017
 ===================
 
 **Clase QTreeWidget**
