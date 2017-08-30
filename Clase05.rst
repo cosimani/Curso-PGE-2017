@@ -49,18 +49,14 @@ Clase 05 - PGE 2017
 	    return a.exec();
 	}
 
-Clase QCompleter
-================
 
-.. figure:: images/clase03/qcompleter.png
+**Ejercicio:** 
 
-**Ejercicio:** Hacer lo mismo pero la base de datos que sea un archivo SQLite.
+- Incorporar LineaDeTexto a un proyecto de Qt para promocionarlo en QtDesigner
+- Crear un Formulario con QtDesigner que tenga 4 LineaDeTexto promocionadas
+- El formulario será para alta de personas
+- Un campo para Nombre, otro para Apellido, para DNI y uno para Nombre completo.
+- Esta última LineaDeTexto concatenará en tiempo real el nombre y apellido usando el operator+ de LineaDeTexto
 
-**Ejercicio:** Definir una clase genérica Vector que herede de QVector.
-
-- Modificar el comportamiento de los siguientes métodos:
-	- at() - En vez de obtener el primer elemento con 0 que lo haga con 1, el 1 con 2,...
-	- size() - Bloquearlo, que no se pueda usar.
-	- float getPromedio() - Si los elementos son int o float, devolver el promedio sino devolver -1
 
 
