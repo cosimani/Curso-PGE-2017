@@ -121,6 +121,8 @@ Captura de eventos con eventFilter
 
 **Ejercicio:** Modificar este ejemplo para que la imagen rote sobre su centro.
 
+**Ejercicio:** Cada vez que el usuario desplace la ventana Principal, que al soltarlo se coloque centrado en pantalla.
+
 
 
 Clase QCompleter

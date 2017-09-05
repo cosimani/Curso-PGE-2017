@@ -215,9 +215,11 @@ Clase 07 - PGE 2017
 
 **Ejercicio 1:** Hacerlo funcionar.
 
-**Ejercicio 2:** En lugar de utilizar un QStringList como base de datos, utilizar una base de datos SQLite
+**Ejercicio 2:** Cuando alguna búsqueda no exista en la base de datos (QStringList lista), entonces que la agregue..
 
-**Ejercicio 3:** Agregar esta característica de autocompletado a la clase LineaDeTexto.
+**Ejercicio 3:** En lugar de utilizar un QStringList como base de datos, utilizar una base de datos SQLite
+
+**Ejercicio 4:** Agregar esta característica de autocompletado a la clase LineaDeTexto.
 
 
 Uso de una clase propia con QtDesigner
