@@ -4,6 +4,7 @@
 
 Clase 04 - PGE 2017
 ===================
+(Fecha: 23 de agosto)
 
 **Copiar objetos**
 

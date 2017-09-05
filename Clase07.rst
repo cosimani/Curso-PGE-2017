@@ -4,6 +4,7 @@
 
 Clase 07 - PGE 2017
 ===================
+(Fecha: 5 de septiembre)
 
 **Clase QTreeWidget**
 

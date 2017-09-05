@@ -4,6 +4,7 @@
 
 Clase 05 - PGE 2017
 ===================
+(Fecha: 29 de agosto)
 
 **Resololución del Ejercicio LineaDeTexto:**
 

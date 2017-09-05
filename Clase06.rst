@@ -4,6 +4,7 @@
 
 Clase 06 - PGE 2017
 ===================
+(Fecha: 30 de agosto)
 
 Captura de eventos con eventFilter
 ==================================

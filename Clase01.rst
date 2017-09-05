@@ -4,6 +4,7 @@
 
 Clase 01 - PGE 2017
 ===================
+(Fecha: 15 de agosto)
 
 :Autor: César Osimani
 :Correo: cosimani@ubp.edu.ar

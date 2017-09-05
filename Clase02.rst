@@ -4,7 +4,8 @@
 
 Clase 02 - PGE 2017
 ===================
- 
+(Fecha: 16 de agosto)
+
 Herencia
 ========
 
