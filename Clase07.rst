@@ -221,7 +221,13 @@ Clase 07 - PGE 2017
 
 **Ejercicio 4:** Agregar esta característica de autocompletado a la clase LineaDeTexto.
 
-**Ejercicio 5:** Agregar el método setSugerencias(QString archivoDeTexto) para agregar un diccionario a la base de datos (QStringList lista).
+**Ejercicio 5:** 
+
+- Agregar el método setSugerencias(QString archivoDeTexto) para agregar un diccionario a la base de datos (QStringList lista).
+- Si el diccionario tiene dos columnas, entonces el popup tendrá dos columnas
+- Si el diccionario tiene una sola columna, entonces popup de una sola columna
+- Sugiere primero las pabras que empiecen con las letras buscadas, luego que sugiera las palabras que las contienen..
+
 
 
 Uso de una clase propia con QtDesigner
@@ -250,7 +256,7 @@ Uso de una clase propia con QtDesigner
 	
 	}
 
-**Ejercicio 6:**
+**Ejercicio:**
 	- Definir la clase TuLabel que herede de QLabel
 	- Agregar un QLabel a la GUI y promoverlo a TuLabel
 	- Agregar un método void cambiarTexto(QString nuevoTexto)
@@ -260,7 +266,7 @@ Uso de una clase propia con QtDesigner
 
 	ui->tuLabel->cambiarTexto("Sos un TuLabel?");
 
-**Ejercicio 7:**
+**Ejercicio:**
 	- En una nueva aplicación utilizar la clase LineaDeTexto con la característica de sugerencias
 	- Diseñar la GUI con QtDesigner usando QLineEdit y promoverlo a LineaDeTexto
 
