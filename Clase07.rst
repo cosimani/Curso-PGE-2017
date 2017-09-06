@@ -223,52 +223,14 @@ Clase 07 - PGE 2017
 
 **Ejercicio 5:** 
 
-- Agregar el método setDiccionario(QString archivoDeTexto) para agregar un diccionario a la base de datos (QStringList lista).
+- Agregar el método setDiccionario(QString archivo) para agregar un diccionario a la base de datos (QStringList lista).
 - Si el diccionario tiene dos columnas, entonces el popup tendrá dos columnas
 - Si el diccionario tiene una sola columna, entonces popup de una sola columna
-- Sugiere primero las pabras que empiecen con las letras buscadas, luego que sugiera las palabras que las contienen..
+- Sugiere primero las palabras que empiecen con las letras buscadas, luego que sugiera las palabras que las contienen.
 
 
 
-Uso de una clase propia con QtDesigner
-======================================
 
-- Deben heredar de algún QWidget
-- Colocamos el widget (clase base) con QtDesigner
-- Clic derecho "Promote to"
-
-.. figure:: images/clase07/qtdesigner.png
-					 
-- Base class name: QLabel
-- Promoted class name: MiLabel
-- Header file: miLabel.h
-- Add (y con esto queda disponible para promover)
-
-
-- La clase MiLabel deberá heredar de QLabel
-- El constructor debe tener como parámetro:
-
-.. code-block::
-
-	MiLabel(QWidget *parent = 0);  // Esto en miLabel.h
-
-	MiLabel::MiLabel(QWidget *parent) : QLabel(parent)  {  // Esto en miLabel.cpp
-	
-	}
-
-**Ejercicio:**
-	- Definir la clase TuLabel que herede de QLabel
-	- Agregar un QLabel a la GUI y promoverlo a TuLabel
-	- Agregar un método void cambiarTexto(QString nuevoTexto)
-	- Usar ese método desde la clase Principal de la siguiente forma:
-
-.. code-block::
-
-	ui->tuLabel->cambiarTexto("Sos un TuLabel?");
-
-**Ejercicio:**
-	- En una nueva aplicación utilizar la clase LineaDeTexto con la característica de sugerencias
-	- Diseñar la GUI con QtDesigner usando QLineEdit y promoverlo a LineaDeTexto
 
 
 
