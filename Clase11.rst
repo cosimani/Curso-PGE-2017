@@ -5,33 +5,6 @@
 Clase 11 - PGE 2016
 ===================
 
-Base de datos con SQLite
-========================
-
-.. figure:: images/clase09/sqlite1.png
-
-.. figure:: images/clase09/sqlite2.png
-
-.. figure:: images/clase09/sqlite3.png
-
-**Ejercicio 4**
-
-.. figure:: images/clase09/ejercicio4.png
-
-.. figure:: images/clase09/ejercicio4a.png
-
-.. figure:: images/clase09/ejercicio4b.png
-
-**Para independizar del SO**
-
-.. figure:: images/clase09/independizar.png
-
-**Consulta a la base de datos**
-
-.. figure:: images/clase09/consultar1.png
-
-.. figure:: images/clase09/consultar2.png
-
 
 
 
