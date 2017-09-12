@@ -2,9 +2,9 @@
 
 .. _rcs_subversion:
 
-Clase 09 - PGE 2016
+Clase 09 - PGE 2017
 ===================
-
+(Fecha: 12 de septiembre)
 
 **QMainWindow**
 
@@ -24,41 +24,82 @@ Clase 09 - PGE 2016
 
 .. figure:: images/clase08/ejercicio.png
 
-**typeid**
 
-.. figure:: images/clase09/typeid.png
+**CLI >> GUI >> NUI**
 
-**Clase type_info**
+.. figure:: images/clase11/cli_gui_nui.png
+	:target: https://prezi.com/_iqvhrobpe0p/desarrollo/
 
-- Dispone de un método para preguntar si es puntero y otro método para saber si es puntero a función:
-		    
+
+**Ejercicio: Tarea para clase 11**
+
+- Proponer una interfaz gráfica de usuario
+- Que sea sólo de una ventana
+- Buscar algún sitio, en algún video, alguna aplicación para móvil o desktop
+- Replicarla en Qt
+
+
+Utilización de cámaras de video con Qt
+======================================
+
+- Clase QCamera: Controlador de las cámaras
+- Clase QCameraViewfinder: Es un QWidget visualizador de imágenes de la cámara
+- Clase QCameraInfo: Listado de las cámaras disponibles y la info de cada una
+- Requiere en el .pro: QT += multimedia multimediawidgets #Qt5.3 mínimo
+
+**Publicar la descripción de las cámaras disponibles**
+
 .. code-block::
-			
-	virtual bool __is_pointer_p() const;
-   
-	virtual bool __is_function_p() const;
 
+	QList<QCameraInfo> cameras = QCameraInfo::availableCameras();
+	for (int i=0 ; i<cameras.size() ; i++)  
+	    qDebug() << cameras.at(i).description();
 
-.. figure:: images/clase09/type_info.png
+**Instanciar QCamera y mostrar los frames sobre el QCameraViewfinder**
 
-**Ejercicio 1**
+.. code-block::
 
-.. figure:: images/clase09/ejercicio1.png
+    QCameraInfo cameraInfo = cameras.at(0);
+    QCamera * camera = new QCamera(cameraInfo);
 
-**Ejercicio 2**
+    QCameraViewfinder *visor = new QCameraViewfinder;
 
-.. figure:: images/clase09/ejercicio2.png
+    camera->setViewfinder(visor);
+    camera->start();
 
-**Temas para el parcial**
-	- Template (Clases genéricas, herencia, argumento por defecto, etc.)
-	- Sobrecarga de operadores
-	- Constructor copia y operador de asignación
-	- static
-	- QCompleter, eventFilter
-	- Creación y uso de librerías dinámicas
-	- QWidgets propios promocionados en QtDesigner
-	
+    visor->show();
 
+**Creación de un visor promovido a QWidget para QtDesigner**
+
+.. code-block::
+
+	// Puede estar sólo en el .h (en visor.h)
+	#ifndef VISOR_H
+	#define VISOR_H
+
+	#include <QCameraViewfinder>
+
+	class Visor : public QCameraViewfinder  {
+	    Q_OBJECT
+	public:
+	    explicit Visor(QWidget *parent = 0 ) : QCameraViewfinder(parent)  {   }
+	};
+
+	#endif // VISOR_H
+
+**Ejercicio 1:**
+
+- Crear una aplicación con un QCameraViewfinder promovido a QWidget en QtDesigner
+- Un botón "Mostrar imagen" para que encienda la cámara y muestre la imagen
+
+**Ejercicio 2:**
+
+- Una aplicación que complete un QComboBox con las cámaras disponibles
+- Un QPushButton para iniciar la cámara seleccionada
+
+**Resolución**
+
+:Código fuente: https://github.com/cosimani/Curso-PGE-2015/tree/master/sources/clase10/camera
 
 
 

@@ -5,10 +5,6 @@
 Clase 12 - PGE 2016
 ===================
 
-**CLI >> GUI >> NUI**
-
-.. figure:: images/clase11/cli_gui_nui.png
-	:target: https://prezi.com/_iqvhrobpe0p/desarrollo/
 
 **Análisis píxel a píxel**
 
