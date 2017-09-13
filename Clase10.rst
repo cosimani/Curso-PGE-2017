@@ -4,6 +4,7 @@
 
 Clase 10 - PGE 2017
 ===================
+(Fecha: 13 de septiembre)
 
 
 CLI >> GUI >> NUI
@@ -82,6 +83,17 @@ Utilización de cámaras de video con Qt
 **Resolución**
 
 :Código fuente: https://github.com/cosimani/Curso-PGE-2015/tree/master/sources/clase10/camera
+
+**Ejercicio 3:**
+
+- Siguiendo el ejercicio 2, crear una carpeta donde se irán guardando las imágenes de la cámara
+- Colocar un QSlider con rango entre 500 y 5000, paso de 500, que indica un cantidad en mili segundos
+- Descargar en disco las imágenes en archivos jpg cada un tiempo en mseg según el QSlider
+- El nombre del archivo tendrá la fecha y hora en que fue capturada.
+
+**Ejercicio 4:**
+
+- Siguiendo el ejercicio 3, usar todas las imágenes de esa carpeta mostrándolas en un QWidget cada 100 mseg.
 
 
 Base de datos con SQLite (repaso)
