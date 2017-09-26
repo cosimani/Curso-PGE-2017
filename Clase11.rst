@@ -134,16 +134,6 @@ Levantar frame por frame: Clase QAbstractVideoSurface
 	}
 
 
-**Temas para el parcial**
-	- Template (Clases genéricas, herencia, argumento por defecto, etc.)
-	- Sobrecarga de operadores
-	- Constructor copia y operador de asignación
-	- static
-	- QCompleter, eventFilter
-	- Creación y uso de librerías dinámicas
-	- QWidgets propios promocionados en QtDesigner
-	
-
 
 
 
