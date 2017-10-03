@@ -63,7 +63,8 @@ Ejemplo del Login independiente
 	                                       formulario( new Formulario )
 	{
 
-	    connect( login, SIGNAL( signal_usuarioValidado( bool, QStringList ) ), this, SLOT( slot_ingreso( bool, QStringList ) ) );
+	    connect( login, SIGNAL( signal_usuarioValidado( bool, QStringList ) ), 
+	             this, SLOT( slot_ingreso( bool, QStringList ) ) );
 
 	    QVector< QStringList > nuevosUsuarios;
 
@@ -115,8 +116,10 @@ Ejemplo del Login independiente
 	    ~Login();
 
 	    /**
-	     * @brief setBaseUsuarios Permite agregar usuarios permitidos para este login. Siempre estara el usuario admin:nimda
-	     * @param usuarios Son los nuevos usuarios que se agregan a este login sin borrar los anteriores.
+	     * @brief setBaseUsuarios Permite agregar usuarios permitidos para 
+	              este login. Siempre estara el usuario admin:nimda
+	     * @param usuarios Son los nuevos usuarios que se agregan a 
+	              este login sin borrar los anteriores.
 	     */
 	    void setBaseUsuarios( QVector< QStringList > usuarios );
 
@@ -124,7 +127,8 @@ Ejemplo del Login independiente
 	    Ui::Login *ui;
 
 	    /**
-	     * @brief usuarios Se mantienen todos los usuarios validos para este login. El QStringList almacena las credenciales usuario:clave
+	     * @brief usuarios Se mantienen todos los usuarios validos para este login. 
+	              El QStringList almacena las credenciales usuario:clave
 	     */
 	    QVector< QStringList > usuarios;
 
