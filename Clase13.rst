@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 13 - PGE 2016
+Clase 13 - PGE 2017
 ===================
 (Fecha: 3 de octubre)
 
