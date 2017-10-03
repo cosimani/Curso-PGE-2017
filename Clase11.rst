@@ -7,30 +7,7 @@ Clase 11 - PGE 2017
 (Fecha: 26 de septiembre)
 
 
-**typeid**
 
-.. figure:: images/clase09/typeid.png
-
-**Clase type_info**
-
-- Dispone de un método para preguntar si es puntero y otro método para saber si es puntero a función:
-		    
-.. code-block::
-			
-	virtual bool __is_pointer_p() const;
-   
-	virtual bool __is_function_p() const;
-
-
-.. figure:: images/clase09/type_info.png
-
-**Ejercicio 1**
-
-.. figure:: images/clase09/ejercicio1.png
-
-**Ejercicio 2**
-
-.. figure:: images/clase09/ejercicio2.png
 
 **Análisis píxel a píxel**
 
@@ -134,6 +111,19 @@ Levantar frame por frame: Clase QAbstractVideoSurface
 	}
 
 
+**Ejercicio 1:**
 
+- Usar Capturador para levantar las imágnes de la cámara.
+- Convertir a escala de grises y visualizarlo en pantalla.
 
+**Ejercicio 2:**
 
+.. figure:: images/clase11/ejer2.png
+
+**Ejercicio 3:**
+
+.. figure:: images/clase11/ejer3.png
+
+**Ejercicio 4:**
+
+.. figure:: images/clase11/ejer4.png
