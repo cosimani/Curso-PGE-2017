@@ -4,6 +4,7 @@
 
 Clase 13 - PGE 2016
 ===================
+(Fecha: 3 de octubre)
 
 **typeid**
 

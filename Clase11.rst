@@ -7,8 +7,6 @@ Clase 11 - PGE 2017
 (Fecha: 26 de septiembre)
 
 
-
-
 **Análisis píxel a píxel**
 
 - **Ejemplo:** Dejar sólo el componente rojo
