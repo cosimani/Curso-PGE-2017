@@ -300,6 +300,10 @@ donde:
 	    glTexImage2D(GL_TEXTURE_2D, 0, 3, im.width(), im.height(), 0, GL_RGBA, GL_UNSIGNED_BYTE, textura);
 	}
 
+
+- `Descargar el código fuente desde <https://github.com/cosimani/Curso-PGE-2017/blob/master/sources/clase14/EjemploTexturas.zip?raw=true>`_
+
+
 **Ejercicio 4:** 
 
 - Caminando por la ruta. 
