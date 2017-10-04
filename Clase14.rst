@@ -6,6 +6,12 @@ Clase 14 - PGE 2017
 ===================
 (Fecha: 4 de octubre)
 
+Recordatorio sobre la entrega de ejercicios
+===========================================
+
+- Se deberán entregar todos aquellos ejercicios que entán enumerados
+- Cada alumno entregará sólo algunos ejercicios ordenados según este `Documento en Drive <https://docs.google.com/spreadsheets/d/1UwNRoHAjKcXijoVK36GH-I3qsZR58dgwXoKZoz_-iiQ/edit?usp=sharing>`_
+
 Texturas
 ========
 
