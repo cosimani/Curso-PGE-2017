@@ -16,7 +16,7 @@ Clase 08 - PGE 2017
 
 .. figure:: images/clase08/librerias03.png
 
-**Ejercicio:**
+**Ejercicio 17:**
 	- Utilizar la clase LineaDeTexto.
 	- Con todas las carecterísticas que hemos hido agregando (las sugerencias, los operadores, etc.)
 	- Crear una librería dinámica con esta clase.
@@ -48,7 +48,7 @@ Uso de una clase propia con QtDesigner
 	
 	}
 
-**Ejercicio:**
+**Ejercicio 18:**
 	- Definir la clase TuLabel que herede de QLabel
 	- Agregar un QLabel a la GUI y promoverlo a TuLabel
 	- Agregar un método void cambiarTexto(QString nuevoTexto)
@@ -58,7 +58,7 @@ Uso de una clase propia con QtDesigner
 
 	ui->tuLabel->cambiarTexto("Sos un TuLabel?");
 
-**Ejercicio:**
+**Ejercicio 19:**
 	- En una nueva aplicación utilizar la clase LineaDeTexto con la característica de sugerencias
 	- Diseñar la GUI con QtDesigner usando QLineEdit y promoverlo a LineaDeTexto
 

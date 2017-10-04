@@ -213,15 +213,15 @@ Clase 07 - PGE 2017
 	}
 
 
-**Ejercicio 1:** Hacerlo funcionar.
+**Ejercicio 12:** Hacerlo funcionar.
 
-**Ejercicio 2:** Cuando alguna búsqueda no exista en la base de datos (QStringList lista), entonces que la agregue..
+**Ejercicio 13:** Cuando alguna búsqueda no exista en la base de datos (QStringList lista), entonces que la agregue..
 
-**Ejercicio 3:** En lugar de utilizar un QStringList como base de datos, utilizar una base de datos SQLite
+**Ejercicio 14:** En lugar de utilizar un QStringList como base de datos, utilizar una base de datos SQLite
 
-**Ejercicio 4:** Agregar esta característica de autocompletado a la clase LineaDeTexto.
+**Ejercicio 15:** Agregar esta característica de autocompletado a la clase LineaDeTexto.
 
-**Ejercicio 5:** 
+**Ejercicio 16:** 
 
 - Agregar el método setDiccionario(QString archivo) para agregar un diccionario a la base de datos (QStringList lista).
 - Si el diccionario tiene dos columnas, entonces el popup tendrá dos columnas

@@ -346,38 +346,13 @@ Uso de singleton
 	    }  
 	}
 
-**Ejercicio 1**
+**Ejercicio 32**
 
 - Hacer funcionar este ejemplo con Formulario, Login y Manager como singleton.
 - Agregar la característica a Formulario para que se puedan agregar nuevos usuarios a login.
 - Al cerrar Formulario, no se cierra el programa sino que vuelve a Login para que pueda usar el usuario nuevo.
 - Cuando un usuario se loguea, Login se debe ocultar.
 
-
-**typeid**
-
-.. figure:: images/clase09/typeid.png
-
-**Clase type_info**
-
-- Dispone de un método para preguntar si es puntero y otro método para saber si es puntero a función:
-		    
-.. code-block::
-			
-	virtual bool __is_pointer_p() const;
-   
-	virtual bool __is_function_p() const;
-
-
-.. figure:: images/clase09/type_info.png
-
-**Ejercicio 2**
-
-.. figure:: images/clase09/ejercicio1.png
-
-**Ejercicio 3**
-
-.. figure:: images/clase09/ejercicio2.png
 
 Uso de atributos estáticos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -430,10 +405,9 @@ Uso de atributos estáticos
 		return true;
 	}
 
-**Ejercicio 4:**
 
-- En el ejercicio donde se utilizó el QComboBox para elegir la cámara, incorporar Archivador.
-- Que se almacene en un archivo la fecha y hora de cada vez que se inicia la cámara.
+**Ejercicio 33**
 
+.. figure:: images/clase13/logger.png
 
 

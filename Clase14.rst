@@ -2,8 +2,9 @@
 
 .. _rcs_subversion:
 
-Clase 14 - PGE 2016
+Clase 14 - PGE 2017
 ===================
+(Fecha: 4 de octubre)
 
 Texturas
 ========
@@ -421,6 +422,41 @@ donde:
 - Miércoles 5 de octubre.
 - OpenGL, texturas y cámaras.
 - Traer hechos los ejercicios.
+
+
+
+
+**typeid**
+
+.. figure:: images/clase09/typeid.png
+
+**Clase type_info**
+
+- Dispone de un método para preguntar si es puntero y otro método para saber si es puntero a función:
+		    
+.. code-block::
+			
+	virtual bool __is_pointer_p() const;
+   
+	virtual bool __is_function_p() const;
+
+
+.. figure:: images/clase09/type_info.png
+
+**Ejercicio 2**
+
+.. figure:: images/clase09/ejercicio1.png
+
+**Ejercicio 3**
+
+.. figure:: images/clase09/ejercicio2.png
+
+
+
+**Ejercicio 4:**
+
+- En el ejercicio donde se utilizó el QComboBox para elegir la cámara, incorporar Archivador.
+- Que se almacene en un archivo la fecha y hora de cada vez que se inicia la cámara.
 
 
 

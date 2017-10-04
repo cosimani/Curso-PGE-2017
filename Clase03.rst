@@ -224,7 +224,7 @@ static
 .. figure:: images/clase03/miembros_estaticos.png
 
 
-**Ejercicio:** Utilizar la misma clase Poste para sobrecargar operator+ para que sume un objeto Poste con un int.
+**Ejercicio 4:** Utilizar la misma clase Poste para sobrecargar operator+ para que sume un objeto Poste con un int.
 
 - Esa sobrecarga nos permitirá hacer Poste suma = p1 + 5;
 
@@ -237,7 +237,7 @@ static
 
 .. figure:: images/clase03/operadores_globales.png
 
-**Ejercicio:**
+**Ejercicio 5:**
 
 - Utilice la clase genérica Listado dentro de un nuevo proyecto.
 - En la función main crear un listado con 5 QWidget

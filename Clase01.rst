@@ -13,12 +13,14 @@ Clase 01 - PGE 2017
 	- 2 parciales 
 	
 	- Mini Exámenes de preguntas múltiples (se promedia para 3er nota)
+
+	- Entrega de ejercicios que están en las clases (se promedia para 3er nota)
 :Opción B: 
 	- Desarrollo en Qt para Android 
 	
 	- Proponer un desarrollo que les interese
 	
-	- El proyecto reemplaza los dos parciales (no los Mini Exámenes). 
+	- El proyecto reemplaza los dos parciales (no los Mini Exámenes ni ejercicios). 
 
 	- Cumplir aproximadamente 8 horas semanales en investigación (no rinde parciales)
 	
@@ -26,7 +28,7 @@ Clase 01 - PGE 2017
 	
 	- Es individual o grupo de dos.
 :Otras opciones para obtener puntaje extra: 
-	- Clonar este repositorio, mejorarlo, ampliarlo, colocar los ejercicio resueltos, etc. 
+	- Clonar este repositorio, mejorarlo, ampliarlo, colocar los ejercicios resueltos, etc. 
 	
 	- Crear un instructivo de Git, con ejemplos claros, para usar desde QtCreator.
 :Opciones para proyectos: 
@@ -143,8 +145,8 @@ Clase genérica Listado
 
     }
 
-Ejercicio:
-==========
+Ejercicio 1:
+============
 
 - En un archivo de cabecera definir la clase Listado con todos sus métodos off-line
 - Agregar un método que inserte un elemento en la posición i desplazando los otros

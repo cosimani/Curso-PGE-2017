@@ -51,7 +51,7 @@ Clase 05 - PGE 2017
 	}
 
 
-**Ejercicio:** 
+**Ejercicio 7:** 
 
 - Incorporar LineaDeTexto a un proyecto de Qt para promocionarlo en QtDesigner
 - Crear un Formulario con QtDesigner que tenga 4 LineaDeTexto promocionadas

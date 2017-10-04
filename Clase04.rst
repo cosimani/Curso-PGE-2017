@@ -18,7 +18,7 @@ Clase 04 - PGE 2017
 
 .. figure:: images/clase04/operador_asignacion.png
 
-**Ejercicio:**
+**Ejercicio 6:**
 	- Definir la clase LineaDeTexto que herede de QLineEdit
 	- Sobrecargar el operator+ operator= y el contructor copia para que se puede ejecutar la siguiente línea de código:
 	

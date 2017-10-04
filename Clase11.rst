@@ -24,7 +24,7 @@ Clase 11 - PGE 2017
         }
     }
 
-**Ejercicio:**
+**Ejercicio 27:**
 
 - Agregar un QPushButton "Capturar imagen" para procesarla
 - Dibujar con paintEvent esa imagen procesada 
@@ -109,19 +109,19 @@ Levantar frame por frame: Clase QAbstractVideoSurface
 	}
 
 
-**Ejercicio 1:**
+**Ejercicio 28:**
 
 - Usar Capturador para levantar las imágnes de la cámara.
 - Convertir a escala de grises y visualizarlo en pantalla.
 
-**Ejercicio 2:**
+**Ejercicio 29:**
 
 .. figure:: images/clase11/ejer2.png
 
-**Ejercicio 3:**
+**Ejercicio 30:**
 
 .. figure:: images/clase11/ejer3.png
 
-**Ejercicio 4:**
+**Ejercicio 31:**
 
 .. figure:: images/clase11/ejer4.png

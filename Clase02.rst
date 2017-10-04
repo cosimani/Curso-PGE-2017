@@ -74,7 +74,7 @@ Herencia
 	    return 0;
 	}
 
-*Ejercicio*
+*Ejercicio 2*
 
 - Agregar la características a Mundo para que pueda heredar de cualquier clase, no sólo de Real y Virtual
 - Que compile y deje ejecutar la aplicación pero el toString publicar que el Mundo creado no es posible.
@@ -143,7 +143,7 @@ Sobrecarga de operadores
 
 
 
-*Ejercicio*
+*Ejercicio 3*
 
 - Sobrecargar el operador ++ para que duplique la cantidad máxima de elementos y también duplique los valores que ya existían.
 
