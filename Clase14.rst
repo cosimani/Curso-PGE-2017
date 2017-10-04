@@ -304,11 +304,12 @@ donde:
 - `Descargar el código fuente <https://github.com/cosimani/Curso-PGE-2017/blob/master/sources/clase14/EjemploTexturas.zip?raw=true>`_
 
 
-**Ejercicio 4:** 
+**Ejercicio 34:** 
 
-- Caminando por la ruta. 
-- Buscar una imagen de una ruta para texturizar un plano horizontal.
-- Con las teclas UP y DOWN realizar el efecto como si estuviéramos desplazándonos sobre la ruta.
+- Caminando en la habitación.
+- Buscar una imagen de piso de cerámica para texturizar un plano horizontal.
+- Con las teclas UP y DOWN realizar el efecto como si estuviéramos desplazándonos sobre la habitación hacia delante y atrás.
+- Colocar una pared al fondo de la habitación con textura de ladrillos.
  
 **Podemos ahora llevar las imágenes de la cámara como textura a OpenGL**
 
@@ -424,16 +425,6 @@ donde:
 
 - Continuar con el ejercicio de la pantalla con las imágenes de la cámara
 - Incorporar otro LCD mostrando como textura una imagen de Street View
-
-
-
-**MiniExamen:**
-
-- Miércoles 5 de octubre.
-- OpenGL, texturas y cámaras.
-- Traer hechos los ejercicios.
-
-
 
 
 **typeid**
