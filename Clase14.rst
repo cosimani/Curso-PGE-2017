@@ -310,6 +310,13 @@ donde:
 - Buscar una imagen de piso de cerámica para texturizar un plano horizontal.
 - Con las teclas UP y DOWN realizar el efecto como si estuviéramos desplazándonos sobre la habitación hacia delante y atrás.
 - Colocar una pared al fondo de la habitación con textura de ladrillos.
+
+**Ejercicio 35:** 
+
+- En un nuevo proyecto promocionar en QtDesigner dos Escenas.
+- Como si estuviéramos haciendo un App para la CardBoard.
+- Intentar hacer ese pequeño desplazamiento de la imagen para cada ojo.
+
  
 **Podemos ahora llevar las imágenes de la cámara como textura a OpenGL**
 
