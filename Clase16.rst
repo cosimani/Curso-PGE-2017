@@ -75,7 +75,7 @@ Clase 16 - PGE 2016
 		             texturaCamara);
 	}
 
-**Ejercicio 5:**
+**Ejercicio 40:**
 
 - Crear una escena con OpenGL con glOrtho para mostrar como textura las imágenes de la cámara en un QUADS.
 - Luego probar con gluPerspective
@@ -84,7 +84,7 @@ Clase 16 - PGE 2016
 
 :Código fuente: https://github.com/cosimani/Curso-PGE-2015/tree/master/sources/clase11/ejercicio1
 	
-**Ejercicio 6:**
+**Ejercicio 41:**
 
 - Crear una aplicación para mostrar una escena 3D con OpenGL que tenga las siguientes características:
 	- Utilizar la clase Ogl
@@ -107,35 +107,29 @@ Clase 16 - PGE 2016
 
 .. figure:: images/clase11/escena.png
 
-**Ejercicio 7:**
+**Ejercicio 42:**
 
 - Usar el ejercicio anterior
 - Colgar de la tapia del fondo un monitor LCD mostrando las imágenes de la cámara
 
-**Ejercicio 8:**
+**Ejercicio 43:**
 
 - En el medio del escenario tapia-piso-cielo dibujar un cubo girando
 - Pegar la textura de la cámara en cada lado del cubo
 
-**Ejercicio 5:**
+**Ejercicio 44:**
 
 - Continuar con el ejercicio de la pantalla con las imágenes de la cámara
 - Incorporar otro LCD mostrando como textura una imagen de Street View
 
 
+**Ejercicio 45:**
+
+- En el ejercicio donde se utilizó el QComboBox para elegir la cámara, incorporar Archivador.
+- Que se almacene en un archivo la fecha y hora de cada vez que se inicia la cámara.
 
 
 
-Tratamiento de excepciones
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. figure:: images/clase15/excepciones1.png
-
-* `Explicación por un youtuber <http://www.youtube.com/watch?v=wcuknro_V-w>`_
-
-**Excepciones de la biblioteca estándar de C++**
-
-.. figure:: images/clase15/excepciones2.png
 
 Mini Examen 2
 ^^^^^^^^^^^^^

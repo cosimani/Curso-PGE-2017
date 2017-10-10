@@ -31,10 +31,18 @@ Clase 15 - PGE 2017
 
 .. figure:: images/clase09/ejercicio2.png
 
-**Ejercicio 38:**
 
-- En el ejercicio donde se utilizó el QComboBox para elegir la cámara, incorporar Archivador.
-- Que se almacene en un archivo la fecha y hora de cada vez que se inicia la cámara.
+Tratamiento de excepciones
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: images/clase15/excepciones1.png
+
+* `Explicación por un youtuber <http://www.youtube.com/watch?v=wcuknro_V-w>`_
+
+**Excepciones de la biblioteca estándar de C++**
+
+.. figure:: images/clase15/excepciones2.png
+
 
 **Ejemplo creando nuestras propias clases para excepciones**
 
@@ -132,7 +140,7 @@ Clase 15 - PGE 2017
 	    return 0;
 	}
 	
-**Ejercicio 39:**
+**Ejercicio 38:**
 
 - Modificar la clase listado para que cuando sea necesario lance la excepción ExcRango cuando se intente acceder a un index fuera de rango. Probarlo luego en la función main.
 
@@ -197,7 +205,7 @@ Clase 15 - PGE 2017
 - Podríamos terminar un hilo a fuerza bruta con terminate().
 - Dormimos el hilo con: sleep(int seg) o msleep(int miliseg) o usleep(int microseg)
 	
-**Ejercicio 40:**
+**Ejercicio 39:**
 
 - Diseñar una aplicación GUI que escriba en un archivo muchísimos caracteres de tal forma se note que la interfaz de usuario se bloquea hasta finalizar la escritura.
 - Luego de esto, utilizar un hilo distinto para escribir la misma cantidad de caracteres.
