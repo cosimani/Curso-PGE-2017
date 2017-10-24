@@ -169,11 +169,11 @@ Clase 16 - PGE 2017
 - Podríamos terminar un hilo a fuerza bruta con terminate().
 - Dormimos el hilo con: sleep(int seg) o msleep(int miliseg) o usleep(int microseg)
 	
-**Ejercicio 39:**
+**Ejercicio 40:**
 
 - Diseñar una aplicación GUI que escriba en un archivo muchísimos caracteres de tal forma se note que la interfaz de usuario se bloquea hasta finalizar la escritura.
 - Luego de esto, utilizar un hilo distinto para escribir la misma cantidad de caracteres.
 
-**Ejercicio 40**
+**Ejercicio 41**
 
 .. figure:: images/clase16/ejer-medidor.jpg
