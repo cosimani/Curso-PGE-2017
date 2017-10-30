@@ -2,8 +2,9 @@
 
 .. _rcs_subversion:
 
-Clase 18 - PGE 2016
+Clase 18 - PGE 2017
 ===================
+(Fecha: 25 de octubre)
 
 **Array de punteros a función**
 
@@ -20,7 +21,6 @@ Clase 18 - PGE 2016
 
 	int a = afptr[n](x);
 	
-
 	
 **Ejercicio:**
 
