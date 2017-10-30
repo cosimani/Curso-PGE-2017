@@ -137,13 +137,13 @@ Clase 20 - PGE 2017
 	    image.save("../imagen.png");
 	}
 	
-**Ejercicio 2:**
+**Ejercicio:**
 
 - Con Archivador almacenar cada vez que se dibuja con el lápiz
 - Almacenar con el siguiente formato:
 	- Fecha y hora: 21.10.2014-20:53:42 - Píxel inicio: (153, 230) - Fin: (51, 76)
 	
-**Ejercicio 3:**
+**Ejercicio:**
 
 - Definir métodos para realizar procesamiento de las imágenes para:
 	- Convertir a grises
@@ -152,6 +152,6 @@ Clase 20 - PGE 2017
 - El prototipo puede ser:
 	- QImage getGrayImage(QImage imagenOriginal);
 
-**Ejercicio 4:**
+**Ejercicio:**
 
 - Imágenes de Google Street View en OpenGL

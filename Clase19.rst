@@ -101,7 +101,7 @@ MiniExamen de preguntas múltiples
 		             texturaCamara);
 	}
 
-**Ejercicio 40:**
+**Ejercicio:**
 
 - Crear una escena con OpenGL con glOrtho para mostrar como textura las imágenes de la cámara en un QUADS.
 - Luego probar con gluPerspective
@@ -110,7 +110,7 @@ MiniExamen de preguntas múltiples
 
 :Código fuente: https://github.com/cosimani/Curso-PGE-2015/tree/master/sources/clase11/ejercicio1
 
-**Ejercicio 40:**
+**Ejercicio:**
 
 - Dentro de la habitación elegir una pared para colocar un monitos LCD con las imágenes de la cámara.
 
