@@ -25,7 +25,7 @@ MiniExamen de preguntas múltiples
 
 **Ejercicio:**
 
-- Descargar la escena `Habitación <https://github.com/cosimani/Curso-PGE-2015/blob/master/sources/clase23/Habitacion.rar?raw=true>`_
+- Descargar la escena `Habitación <https://github.com/cosimani/Curso-PGE-2017/blob/master/sources/clase19/Habitacion.rar?raw=true>`_
 
 - Replicar lo que se visualiza en el siguiente video: https://www.youtube.com/watch?v=Jr_luYdSfRE
 
@@ -108,11 +108,18 @@ MiniExamen de preguntas múltiples
 
 **Resolución**
 
-:Código fuente: https://github.com/cosimani/Curso-PGE-2015/tree/master/sources/clase11/ejercicio1
+- Descargar `Código fuente <https://github.com/cosimani/Curso-PGE-2017/blob/master/sources/clase19/camaraOgl.zip?raw=true>`_
+
 
 **Ejercicio:**
 
-- Dentro de la habitación elegir una pared para colocar un monitos LCD con las imágenes de la cámara.
+- Dentro de la habitación elegir una pared para colocar un monitor LCD con las imágenes de la cámara.
+
+
+**Ejercicio:**
+
+- En el erjercicio de la Habitación, mejorar los movimientos que se realizan con el mouse.
+- Con la barra espaciadora se deberá saltar dentro de la escena.
 
 
 **Resolución del Ejercicio con punteros a métodos de la clase Ordenador** 
