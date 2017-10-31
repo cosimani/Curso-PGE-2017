@@ -9,7 +9,7 @@ Clase 19 - PGE 2017
 MiniExamen de preguntas múltiples
 =================================
 
-:Tarea para Clase 21 (5 de noviembre):
+:Tarea para Clase 20 (1 de noviembre):
 	Ver `Tutorial Qt Creator - Librería DLL <https://www.youtube.com/watch?v=WSk8ojnCrrI>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
 
 	Ver `Tutorial Qt Creator - Librería estática <https://www.youtube.com/watch?v=nqS5WNZZnzU>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
