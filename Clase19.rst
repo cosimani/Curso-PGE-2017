@@ -31,8 +31,6 @@ MiniExamen de preguntas múltiples
 
 
 
-
-
 **Podemos ahora llevar las imágenes de la cámara como textura a OpenGL**
 
 .. code-block:: c++
@@ -45,7 +43,7 @@ MiniExamen de preguntas múltiples
 
 	protected:
 		void initializeGL();
-		void resizeGL(int ancho, int alto);
+		void resizeGL( int ancho, int alto );
 		void paintGL();
 
 	private:
@@ -57,10 +55,10 @@ MiniExamen de preguntas múltiples
 
 		unsigned char *texturaCielo;
 		unsigned char *texturaMuro;
-		GLuint idTextura[2];
+		GLuint idTextura[ 2 ];
 
 		unsigned char *texturaCamara;
-		GLuint idTexturaCamara[1];
+		GLuint idTexturaCamara[ 1 ];
 	};
 
 	void Visual::iniciarCamara()  {
@@ -71,9 +69,9 @@ MiniExamen de preguntas múltiples
 		for (int i=0 ; i<cameras.size() ; i++)  {
 			qDebug() << cameras.at(i).description();
 
-			if (cameras.at(i).description().contains("Truevision", Qt::CaseInsensitive))  {
-				camera = new QCamera(cameras.at(i));
-				camera->setViewfinder(capturador);
+			if (cameras.at(i).description().contains( "Truevision", Qt::CaseInsensitive ) )  {
+				camera = new QCamera( cameras.at( i ) );
+				camera->setViewfinder( capturador );
 				camera->start(); // to start the viewfinder
 			}
 		}
@@ -86,19 +84,19 @@ MiniExamen de preguntas múltiples
 		QVideoFrame frameActual = capturador->getFrameActual();
 		texturaCamara = frameActual.bits();
 
-		glBindTexture(GL_TEXTURE_2D, idTexturaCamara[0]);  // Activamos idTextura.
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR); 
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR); 
+		glBindTexture( GL_TEXTURE_2D, idTexturaCamara[ 0 ] );  // Activamos idTextura.
+		glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR ); 
+		glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR ); 
 
-		glTexImage2D(GL_TEXTURE_2D, 
-		             0, 
-		             3, 
-		             frameActual.width(), 
-		             frameActual.height(), 
-		             0, 
-		             GL_BGRA, 
-		             GL_UNSIGNED_BYTE, 
-		             texturaCamara);
+		glTexImage2D( GL_TEXTURE_2D, 
+		              0, 
+		              3, 
+		              frameActual.width(), 
+		              frameActual.height(), 
+		              0, 
+		              GL_BGRA, 
+		              GL_UNSIGNED_BYTE, 
+		              texturaCamara );
 	}
 
 **Ejercicio:**
@@ -118,7 +116,7 @@ MiniExamen de preguntas múltiples
 
 **Ejercicio:**
 
-- En el erjercicio de la Habitación, mejorar los movimientos que se realizan con el mouse.
+- En el ejercicio de la Habitación, mejorar los movimientos que se realizan con el mouse.
 - Con la barra espaciadora se deberá saltar dentro de la escena.
 
 
