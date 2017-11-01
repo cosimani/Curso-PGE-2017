@@ -6,6 +6,26 @@ Clase 20 - PGE 2017
 ===================
 (Fecha: 1 de noviembre)
 
+MiniExamen de preguntas múltiples
+=================================
+
+:Tarea para Clase 21 (7 de noviembre):
+	Ver `Tutorial Qt Designer <https://www.youtube.com/watch?v=na0dOHmLFYI>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
+	
+	Ver `Tutorial Qt Creator - Icono de la aplicación <https://www.youtube.com/watch?v=eM9ItsibSjc>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
+	
+	Ver `Tutorial Qt Creator - QMessageBox <https://www.youtube.com/watch?v=pEjzODGZCxk>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
+	
+	Ver `Tutorial Qt Creator - QCompleter <https://www.youtube.com/watch?v=VmDVprlLupo>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
+	
+	Ver `Tutorial Qt Creator - QSystemTrayIcon <https://www.youtube.com/watch?v=Fe1L6u064ao>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
+	
+	Ver `Tutorial Qt Creator - QMouseEvent <https://www.youtube.com/watch?v=5dI0u84VGoY>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
+	
+	Ver `Tutorial Qt Creator - QResizeEvent <https://www.youtube.com/watch?v=2mFuXsgJBoI>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
+
+	Ver `Tutorial Qt Creator - QKeyEvent <https://www.youtube.com/watch?v=44fCm1KlQGY>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
+
 
 **Ejercicio:** Seguimiento de objetos
 
@@ -20,9 +40,9 @@ Clase 20 - PGE 2017
 
 	int QColor::hue() const
 
-**Ayuda para Ejercicio 1:** 
+**Ayuda para Ejercicio:** 
 
-- `Descargar proyecto Seguimiento desde aquí <https://github.com/cosimani/Curso-PGE-2015/blob/master/sources/clase20/seguimiento.rar?raw=true>`_
+- `Descargar proyecto Seguimiento desde aquí <https://github.com/cosimani/Curso-PGE-2017/blob/master/sources/clase20/seguimiento.rar?raw=true>`_
 
 - Dispone de la clase Capturador que tiene el siguiente método:
 
@@ -67,91 +87,8 @@ Clase 20 - PGE 2017
 	              imageFormat );
 
 
-**Ejercicio 1:**
+**Ejercicio:** 
 
-- Crear un QCameraViewfinder promovido a QWidget
-- Un botón para capturar la imagen de la cámara
-- Con el mouse se puede dibujar encima de la imagen como un lápiz
-- Un botón para almacenar la imagen resultante.
-
-**Ayuda para este ejercicio**
-
-- A continuación un ejemplo de un widget que permite dibujar con el mouse
-
-.. code-block:: c++	
-
-	class Papel : public QWidget
-	{
-		Q_OBJECT
-	public:
-		explicit Papel(QWidget *parent = 0 );
-
-	private:
-		bool botonPresionado;
-		QPoint posicionMouse;
-
-	protected:
-		bool eventFilter(QObject *obj, QEvent *e);
-		void paintEvent(QPaintEvent *);
-	};
-
-.. code-block:: c++	
-	
-	Papel::Papel(QWidget *parent) : QWidget(parent), botonPresionado(false)  {
-	    this->installEventFilter(this);  // Para trabajar con eventFilter 
-	}
-	
-	bool Papel::eventFilter(QObject *obj, QEvent *e)  {
-	    if (obj == this)  {
-	        if (e->type() == QEvent::MouseButtonPress) 
-	            botonPresionado = true;
-	        if (e->type() == QEvent::MouseButtonRelease) 
-	            botonPresionado = false;
-	        if (e->type() == QEvent::MouseMove)  {
-	            posicionMouse = static_cast<QMouseEvent*>(e)->pos();
-				
-	            // Solo redibujamos el pixedl que pintamos. Esto para que no se borre lo dibujado anteriormente.				
-	            this->repaint(QRect(posicionMouse.x(), posicionMouse.y(), 1, 1));
-	        }
-	    }
-	    return QWidget::eventFilter(obj, e);
-	}
-
-	void Papel::paintEvent(QPaintEvent *)  {
-	    QPainter painter(this);
-
-	    painter.fillRect(0, 0, this->width(), this->height(), QBrush(QColor(255,255,255)));
-
-	    painter.drawPoint(posicionMouse);
-	}
-	
-- Para capturar la pantalla se podría agregar un slot en Papel
-
-.. code-block:: c++	
-
-	// Esto captura la pantalla pero solo almacena el ultimo pixel dibujado, hay que resolverlo.
-	void Papel::slot_capturarImagen()  {
-	    QPixmap pixMap = this->grab();
-	    QImage image = pixMap.toImage();
-
-	    image.save("../imagen.png");
-	}
-	
-**Ejercicio:**
-
-- Con Archivador almacenar cada vez que se dibuja con el lápiz
-- Almacenar con el siguiente formato:
-	- Fecha y hora: 21.10.2014-20:53:42 - Píxel inicio: (153, 230) - Fin: (51, 76)
-	
-**Ejercicio:**
-
-- Definir métodos para realizar procesamiento de las imágenes para:
-	- Convertir a grises
-	- Llevar a negativo
-	- Eliminar algún color
-- El prototipo puede ser:
-	- QImage getGrayImage(QImage imagenOriginal);
-
-**Ejercicio:**
-
-- Imágenes de Google Street View en OpenGL
+- Usar la técnica de Croma (https://es.wikipedia.org/wiki/Croma) para eliminar el fondo de las imágenes de la cámara
+- Utilizar el mouse para elegir un pixel, el cual será tomado como el color que se eliminará.
+- Colocar un botón que permita abrir el disco y elegir la imagen que será colocada como fondo.
