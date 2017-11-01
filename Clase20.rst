@@ -34,7 +34,7 @@ MiniExamen de preguntas múltiples
 - A partir de esto, se realizará un seguimiento de este objeto. Dibujar un círculo o una marca cualquiera sobre este objeto.
 - **Mejora 1:** Corregir el parpadeo que tiene la imagen
 - **Mejora 2:** Corregir la orientación de la imagen
-- **Mejora 3:** Trabajar con matices para identificar color. Se puede usar el método:
+- **Mejora 3:** Trabajar con matices para identificar color. Usar el siguiente método:
 
 .. code-block:: c++	
 
@@ -43,6 +43,8 @@ MiniExamen de preguntas múltiples
 **Ayuda para Ejercicio:** 
 
 - `Descargar proyecto Seguimiento desde aquí <https://github.com/cosimani/Curso-PGE-2017/blob/master/sources/clase20/seguimiento.rar?raw=true>`_
+
+- También puede usar el siguiente `Código fuente <https://github.com/cosimani/Curso-PGE-2017/blob/master/sources/clase19/camaraOgl.zip?raw=true>`_
 
 - Dispone de la clase Capturador que tiene el siguiente método:
 
