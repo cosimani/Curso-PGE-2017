@@ -26,8 +26,10 @@ MiniExamen de preguntas múltiples
 
 	Ver `Tutorial Qt Creator - QKeyEvent <https://www.youtube.com/watch?v=44fCm1KlQGY>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
 
+Ejercicio 39:
+============
 
-**Ejercicio:** Seguimiento de objetos
+- Seguimiento de objetos
 
 - Se desea crear una aplicación que permita realizar el seguimiento de objetos según su color
 - La GUI mostrará la cámara y permitirá hacer clic sobre un píxel y tomará los colores RGB
@@ -89,7 +91,8 @@ MiniExamen de preguntas múltiples
 	              imageFormat );
 
 
-**Ejercicio:** 
+Ejercicio 40:
+============
 
 - Usar la técnica de Croma (https://es.wikipedia.org/wiki/Croma) para eliminar el fondo de las imágenes de la cámara
 - Utilizar el mouse para elegir un pixel, el cual será tomado como el color que se eliminará.

@@ -42,15 +42,15 @@ Ejemplo de un proyecto base para el parcial
 	- Saltar
 	- Desplazarse hacia laterales
 
-Ejercicio
-^^^^^^^^^
+
+Ejercicio 41:
+============
 
 - Dentro de la escena mostrar la cámara.
 - Que permita pausar la cámara con la letra P.
 
-
-Ejercicio con punteros a funciones y ruteo
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ejercicio 42:
+============
 
 - Pensar en la siguiente topología
 

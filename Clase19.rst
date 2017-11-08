@@ -22,8 +22,8 @@ MiniExamen de preguntas múltiples
 
 	Ver `Tutorial Qt Creator - Slot lambda <https://www.youtube.com/watch?v=XL6OTXEh6P8>`_ de `Videos tutoriales de Qt <https://www.youtube.com/playlist?list=PL54fdmMKYUJvn4dAvziRopztp47tBRNum>`_
 
-
-**Ejercicio:**
+Ejercicio 36:
+============
 
 - Descargar la escena `Habitación <https://github.com/cosimani/Curso-PGE-2017/blob/master/sources/clase19/Habitacion.zip?raw=true>`_
 
@@ -108,13 +108,13 @@ MiniExamen de preguntas múltiples
 
 - Descargar `Código fuente <https://github.com/cosimani/Curso-PGE-2017/blob/master/sources/clase19/camaraOgl.zip?raw=true>`_
 
-
-**Ejercicio:**
+Ejercicio 37:
+============
 
 - Dentro de la habitación elegir una pared para colocar un monitor LCD con las imágenes de la cámara.
 
-
-**Ejercicio:**
+Ejercicio 38:
+============
 
 - En el ejercicio de la Habitación, mejorar los movimientos que se realizan con el mouse.
 - Con la barra espaciadora se deberá saltar dentro de la escena.

@@ -6,7 +6,7 @@ Clase 16 - PGE 2017
 ===================
 (Fecha: 11 de octubre)
 
-**Resolución del ejercicio 37. Sin typeid.**
+**Resolución. Sin typeid.**
 
 .. code-block:: c++
 
@@ -133,7 +133,7 @@ Clase 16 - PGE 2017
 	}
 
 
-**Ejercicio 39:**
+**Ejercicio**
 
 - Hacer lo mismo pero usando typeid.
 
@@ -168,12 +168,14 @@ Clase 16 - PGE 2017
 - Para consultar el estado del hilo podemos utilizar isFinished() o isRunning().
 - Podríamos terminar un hilo a fuerza bruta con terminate().
 - Dormimos el hilo con: sleep(int seg) o msleep(int miliseg) o usleep(int microseg)
-	
-**Ejercicio 40:**
 
+Ejercicio 29:
+============
+	
 - Diseñar una aplicación GUI que escriba en un archivo muchísimos caracteres de tal forma se note que la interfaz de usuario se bloquea hasta finalizar la escritura.
 - Luego de esto, utilizar un hilo distinto para escribir la misma cantidad de caracteres.
 
-**Ejercicio 41**
+Ejercicio 30:
+============
 
 .. figure:: images/clase16/ejer-medidor.jpg

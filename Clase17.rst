@@ -105,7 +105,10 @@ Función callback
 	    (*puntero_funcion)();  // Llama a la función apuntada
 	}
 
-**Ejercicio 1:** Definir la siguiente clase:
+Ejercicio 31:
+============
+
+- Definir la siguiente clase:
 
 .. code-block:: c++
 
