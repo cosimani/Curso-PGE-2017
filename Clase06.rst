@@ -118,12 +118,11 @@ Captura de eventos con eventFilter
 		return QWidget::eventFilter(obj, e);
 	}
 
+Ejercicio 7:
+============
 
-**Ejercicio 8:** Modificar este ejemplo para que la imagen rote sobre su centro.
-
-**Ejercicio 9:** Cada vez que el usuario desplace la ventana Principal, que al soltarlo se coloque centrado en pantalla.
-
-
+- Modificar este ejemplo para que la imagen rote sobre su centro.
+- Cada vez que el usuario desplace la ventana Principal, que al soltarlo se coloque centrado en pantalla.
 
 Clase QCompleter
 ================

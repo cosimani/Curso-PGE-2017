@@ -346,6 +346,7 @@ Uso de singleton
 	    }  
 	}
 
+
 **Ejercicio 32**
 
 - Hacer funcionar este ejemplo con Formulario, Login y Manager como singleton.

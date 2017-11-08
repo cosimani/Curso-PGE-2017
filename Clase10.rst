@@ -13,8 +13,8 @@ CLI >> GUI >> NUI
 .. figure:: images/clase11/cli_gui_nui.png
 	:target: https://prezi.com/_iqvhrobpe0p/desarrollo/
 
-
-**Ejercicio 21:**
+Ejercicio 14:
+============
 
 - Proponer una interfaz gráfica de usuario
 - Que sea sólo de una ventana
@@ -70,30 +70,29 @@ Utilización de cámaras de video con Qt
 
 	#endif // VISOR_H
 
-**Ejercicio 22:**
+**Ejercicio**
 
 - Crear una aplicación con un QCameraViewfinder promovido a QWidget en QtDesigner
 - Un botón "Mostrar imagen" para que encienda la cámara y muestre la imagen
-
-**Ejercicio 23:**
-
-- Una aplicación que complete un QComboBox con las cámaras disponibles
+- Que complete un QComboBox con las cámaras disponibles
 - Un QPushButton para iniciar la cámara seleccionada
 
 **Resolución**
 
 :Código fuente: https://github.com/cosimani/Curso-PGE-2015/tree/master/sources/clase10/camera
 
-**Ejercicio 24:**
+Ejercicio 15:
+============
 
-- Siguiendo el ejercicio 2, crear una carpeta donde se irán guardando las imágenes de la cámara
+- Siguiendo el ejercicio anterior, crear una carpeta donde se irán guardando las imágenes de la cámara
 - Colocar un QSlider con rango entre 500 y 5000, paso de 500, que indica un cantidad en mili segundos
 - Descargar en disco las imágenes en archivos jpg cada un tiempo en mseg según el QSlider
 - El nombre del archivo tendrá la fecha y hora en que fue capturada.
 
-**Ejercicio 25:**
+Ejercicio 16:
+============
 
-- Siguiendo el ejercicio 3, usar todas las imágenes de esa carpeta mostrándolas en un QWidget cada 100 mseg.
+- Siguiendo el ejercicio anterior, usar todas las imágenes de esa carpeta mostrándolas en un QWidget cada 100 mseg.
 
 
 Base de datos con SQLite (repaso)
@@ -105,7 +104,7 @@ Base de datos con SQLite (repaso)
 
 .. figure:: images/clase09/sqlite3.png
 
-**Ejercicio 26**
+**Ejercicio**
 
 .. figure:: images/clase09/ejercicio4.png
 

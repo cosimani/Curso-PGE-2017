@@ -20,7 +20,10 @@ Clase 09 - PGE 2017
 
 :Buscar íconos aquí: http://findicons.com/
 
-**Ejercicio 20:** Editor de  código fuente C++
+Ejercicio 13:
+============
+
+- Editor de  código fuente C++
 
 .. figure:: images/clase08/ejercicio.png
 
