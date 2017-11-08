@@ -304,14 +304,16 @@ donde:
 - `Descargar el código fuente <https://github.com/cosimani/Curso-PGE-2017/blob/master/sources/clase14/EjemploTexturas.zip?raw=true>`_
 
 
-**Ejercicio 34:** 
+Ejercicio 24:
+============
 
 - Caminando en la habitación.
 - Buscar una imagen de piso de cerámica para texturizar un plano horizontal.
 - Con las teclas UP y DOWN realizar el efecto como si estuviéramos desplazándonos sobre la habitación hacia delante y atrás.
 - Colocar una pared al fondo de la habitación con textura de ladrillos.
 
-**Ejercicio 35:** 
+Ejercicio 25:
+============
 
 - En un nuevo proyecto promocionar en QtDesigner dos Escenas.
 - Como si estuviéramos haciendo un App para la CardBoard.

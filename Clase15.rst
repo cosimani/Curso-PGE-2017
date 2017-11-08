@@ -23,11 +23,13 @@ Clase 15 - PGE 2017
 
 .. figure:: images/clase09/type_info.png
 
-**Ejercicio 36**
+Ejercicio 26:
+============
 
 .. figure:: images/clase09/ejercicio1.png
 
-**Ejercicio 37**
+Ejercicio 27:
+============
 
 .. figure:: images/clase09/ejercicio2.png
 
@@ -140,7 +142,8 @@ Tratamiento de excepciones
 	    return 0;
 	}
 	
-**Ejercicio 38:**
+Ejercicio 28:
+============
 
 - Modificar la clase listado para que cuando sea necesario lance la excepción ExcRango cuando se intente acceder a un index fuera de rango. Probarlo luego en la función main.
 

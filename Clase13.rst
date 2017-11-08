@@ -347,7 +347,8 @@ Uso de singleton
 	}
 
 
-**Ejercicio 32**
+Ejercicio 22:
+============
 
 - Hacer funcionar este ejemplo con Formulario, Login y Manager como singleton.
 - Agregar la característica a Formulario para que se puedan agregar nuevos usuarios a login.
@@ -407,7 +408,8 @@ Uso de atributos estáticos
 	}
 
 
-**Ejercicio 33**
+Ejercicio 23:
+============
 
 .. figure:: images/clase13/logger.png
 
