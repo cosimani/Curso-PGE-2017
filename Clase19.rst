@@ -25,7 +25,7 @@ MiniExamen de preguntas múltiples
 
 **Ejercicio:**
 
-- Descargar la escena `Habitación <https://github.com/cosimani/Curso-PGE-2017/blob/master/sources/clase19/Habitacion.rar?raw=true>`_
+- Descargar la escena `Habitación <https://github.com/cosimani/Curso-PGE-2017/blob/master/sources/clase19/Habitacion.zip?raw=true>`_
 
 - Replicar lo que se visualiza en el siguiente video: https://www.youtube.com/watch?v=Jr_luYdSfRE
 

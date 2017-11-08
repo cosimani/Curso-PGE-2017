@@ -13,22 +13,12 @@ Recursos para Recuperatorios
 - Video sobre lo que se desea replicar (https://www.youtube.com/watch?v=Jr_luYdSfRE)
 
 
-
-
-
 Mini Examen 2
 ^^^^^^^^^^^^^
 
 - `Código fuente de la escena sin textura <https://github.com/cosimani/Curso-PGE-2016/blob/master/resources/clase15/Ejercicio1.rar?raw=true>`_
 
 - Escena para replicar (https://www.youtube.com/watch?v=5M-Edl9veuQ)
-
-
-
-
-
-
-
 
 
 
