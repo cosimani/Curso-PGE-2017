@@ -18,7 +18,7 @@ Clase 04 - PGE 2017
 
 .. figure:: images/clase04/operador_asignacion.png
 
-Ejercicio 5:
+Ejercicio 4:
 ============
 
 - Definir la clase LineaDeTexto que herede de QLineEdit

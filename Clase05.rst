@@ -51,7 +51,7 @@ Clase 05 - PGE 2017
 	}
 
 
-Ejercicio 6:
+Ejercicio 5:
 ============
 
 - Incorporar LineaDeTexto a un proyecto de Qt para promocionarlo en QtDesigner

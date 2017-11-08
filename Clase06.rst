@@ -118,7 +118,7 @@ Captura de eventos con eventFilter
 		return QWidget::eventFilter(obj, e);
 	}
 
-Ejercicio 7:
+Ejercicio 6:
 ============
 
 - Modificar este ejemplo para que la imagen rote sobre su centro.
@@ -129,10 +129,15 @@ Clase QCompleter
 
 .. figure:: images/clase03/qcompleter.png
 
-**Ejercicio 10:** Hacer lo mismo pero la base de datos que sea un archivo SQLite.
+Ejercicio 7:
+============
 
-**Ejercicio 11:** Definir una clase genérica Vector que herede de QVector.
+- Hacer lo mismo pero la base de datos que sea un archivo SQLite.
 
+Ejercicio 8:
+============
+
+- Definir una clase genérica Vector que herede de QVector.
 - Modificar el comportamiento de los siguientes métodos:
 	- at() - En vez de obtener el primer elemento con 0 que lo haga con 1, el 1 con 2,...
 	- size() - Bloquearlo, que no se pueda usar.

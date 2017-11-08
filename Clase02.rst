@@ -74,8 +74,7 @@ Herencia
 	    return 0;
 	}
 
-Ejercicio 2:
-============
+**Ejercicio**
 
 - Agregar la características a Mundo para que pueda heredar de cualquier clase, no sólo de Real y Virtual
 - Que compile y deje ejecutar la aplicación pero el toString publicar que el Mundo creado no es posible.
@@ -86,7 +85,7 @@ Sobrecarga de operadores
 
 .. figure:: images/clase02/sobrecarga_operadores.png
 
-Ejercicio 3:
+Ejercicio 2:
 ============
 
 - Modificar la clase genérica Listado sobrecargando operator+ de tal forma que al sumar dos listados se obtenga un nuevo objeto Listado con los elementos consecutivos.
@@ -146,7 +145,7 @@ Ejercicio 3:
 	}
 
 
-Ejercicio 4:
+Ejercicio 3:
 ============
 
 - Sobrecargar el operador ++ para que duplique la cantidad máxima de elementos y también duplique los valores que ya existían.
