@@ -6,6 +6,6 @@ Clase 23 - PGE 2017
 ===================
 (Fecha: 14 de noviembre)
 
-Revisión de proyecto
-^^^^^^^^^^^^^^^^^^^^
+Revisión de proyectos
+^^^^^^^^^^^^^^^^^^^^^
 
