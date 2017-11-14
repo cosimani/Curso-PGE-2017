@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 23 - PGE 2015
+Clase 24 - PGE 2015 (No actualizado)
 ===================
 
 Recursos para Recuperatorios
