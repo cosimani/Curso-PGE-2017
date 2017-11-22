@@ -66,3 +66,8 @@ Ejercicio 42:
 - El puntero apunta a una función global en el archivo de cabecera rutas.h donde existen varias funciones que generan distintas tablas de ruteo.
 - Notar que cada router tiene su propia tabla de ruteo
 
+Ejercicio 43:
+============
+
+- En el medio de la habitación dibujar un cubo girando
+- Pegar la textura de la cámara en cada lado del cubo
